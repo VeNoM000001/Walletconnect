@@ -1,0 +1,17 @@
+.metamask {
+    animation: fade-below 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.walletConnect {
+    animation: fade-right 1s ease forwards;
+}
+@keyframes fade-right {
+    from { transform: translateX(-10em); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+@keyframes fade-below {
+    from { transform: translateY(-4em); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
